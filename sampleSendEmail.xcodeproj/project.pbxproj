@@ -14,6 +14,7 @@
 		191E35ED1DF2F92200603B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191E35EB1DF2F92200603B0F /* LaunchScreen.storyboard */; };
 		191E35F81DF2F92200603B0F /* sampleSendEmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E35F71DF2F92200603B0F /* sampleSendEmailTests.swift */; };
 		191E36031DF2F92200603B0F /* sampleSendEmailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E36021DF2F92200603B0F /* sampleSendEmailUITests.swift */; };
+		191E36111DF3000300603B0F /* sample.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 191E36101DF3000300603B0F /* sample.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		191E35FE1DF2F92200603B0F /* sampleSendEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleSendEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191E36021DF2F92200603B0F /* sampleSendEmailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleSendEmailUITests.swift; sourceTree = "<group>"; };
 		191E36041DF2F92200603B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191E36101DF3000300603B0F /* sample.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		191E35E11DF2F92200603B0F /* sampleSendEmail */ = {
 			isa = PBXGroup;
 			children = (
+				191E36101DF3000300603B0F /* sample.MOV */,
 				191E35E21DF2F92200603B0F /* AppDelegate.swift */,
 				191E35E41DF2F92200603B0F /* ViewController.swift */,
 				191E35E61DF2F92200603B0F /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191E36111DF3000300603B0F /* sample.MOV in Resources */,
 				191E35ED1DF2F92200603B0F /* LaunchScreen.storyboard in Resources */,
 				191E35EA1DF2F92200603B0F /* Assets.xcassets in Resources */,
 				191E35E81DF2F92200603B0F /* Main.storyboard in Resources */,
@@ -417,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NF6KLZDSZ2;
 				INFOPLIST_FILE = sampleSendEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleSendEmail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NF6KLZDSZ2;
 				INFOPLIST_FILE = sampleSendEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleSendEmail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
